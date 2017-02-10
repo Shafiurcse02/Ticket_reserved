@@ -1,0 +1,89 @@
+/*body{
+font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+}*/
+h1, form, button{border:0; margin:0; padding:0;}
+.spacer{clear:both; height:1px;}
+/* ----------- My Form ----------- */
+.myform{
+    margin:0 auto;
+    width:55%;
+    padding:14px;
+}
+
+/* ----------- stylized ----------- */
+#stylized{
+    border:solid 2px #b7ddf2;
+    background:#ebf4fb;
+    margin-top: 10px;
+}
+#stylized h1 {
+    font-size:14px;
+    font-weight:bold;
+    margin-bottom:8px;
+}
+#stylized .tn{
+    padding-left: 5px;
+    color: #006699;
+}
+.ttext{
+    width: 30%;
+    color: red;
+}
+#stylized label{
+    display:block;
+    font-weight:bold;
+    text-align:left;
+    width:30%;
+    margin-left: 7%;
+    float:left;
+}
+
+#stylized input{
+    float:left;font: bold 15px/17px Arial,Helvetica,sans-serif;
+    font-size:12px;
+    padding:4px 2px;
+    border:solid 1px #aacfe4;
+    width:50%;
+    margin:2px 0 10px 10px;
+}
+#stylized select{
+    float:left;
+    font-size:12px;
+    padding:4px 2px;
+    border:solid 1px #aacfe4;
+    width:50%;
+    margin:2px 0 10px 10px;
+}
+#stylized button{
+    clear:both;font: bold 15px/43px Arial,Helvetica,sans-serif;
+    margin-left:10%;
+    width:20%;
+    height:31px;
+    background:#666666 url(img/button.png) no-repeat;
+    text-align:center;
+    line-height:31px;
+    color:#FFFFFF;
+    font-size:14px;
+    font-weight:bold;
+}
+span.test {
+    color: red;
+}
+.PrintArea span {    
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    color: #992b66;
+    border-bottom: 2px solid;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.PrintArea label {    
+    display:block;
+    font-weight:normal;
+    color: black;
+    text-align:left;
+    width:30%;
+    margin-left: 7%;
+    float:left;
+}

@@ -1,0 +1,10 @@
+
+.button {
+    background: none repeat scroll 0 0 #363;  /*--#999999--*/
+    color: #EEEEEE;
+    cursor: pointer;
+    margin: 0px 80px;
+    padding: 3px 5px;
+    text-align: center;
+    width: 80px;
+}

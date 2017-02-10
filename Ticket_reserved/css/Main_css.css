@@ -1,0 +1,300 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 25, 2015, 1:39:23 PM
+    Author     : shafiur Rahman
+*/
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    font-size:15px;
+    font-family:Times New Roman;
+    background: #000 url(../photo/main-bg.jpg) no-repeat top center;
+
+
+}
+
+#header{
+    background-color:#6666CC;
+    width: 80%;
+    height:135px;
+    margin-top: 2px;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+
+
+}
+
+
+.header-left{
+    width:20%;
+    float:left;
+    margin:4px 0 0 0px;
+    padding-left:10px;
+}
+
+.header-right{
+    width:78%;/*---737px---*/
+    float:right;
+    margin-top:76px;
+}
+.header-right p{
+    font-size:12px;
+    color:#5bc23b;
+    text-align:right;
+}
+.header-right ul{
+    color:#16b7f7;
+    text-align:right;
+    margin-top:5px;
+
+}
+.header-right ul li{
+    display:inline;
+}
+.header-right ul li a{
+    font-size:10px;
+    color:#16b7f7;
+    font-weight:bold;
+    text-align:right;
+}
+.header-right ul li a:hover{
+    text-decoration:none;
+}
+.navigation{
+    width:94%;
+    margin-top:25px;
+}
+.navigation ul li{
+    display:inline;
+    line-height:29px;
+    height:29px;
+    text-decoration:none;
+    float:left;}
+.navigation ul li a{
+    font-size:12px;
+    color:#fff;
+    height:31px;
+    line-height:31px;
+    padding:0 9.6px;
+    text-decoration:none;
+    float:left;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+
+.navigation ul .overview a:hover,.selected_ovr{
+    color: #c32a2a;
+    background:url(images/hover.jpg) no-repeat;
+}
+.navigation ul .photos a:hover,.selected_photos{
+    background:url(images/photos-hover.gif) no-repeat left;
+}
+
+.navigation ul .guest a:hover,.selected_guest{
+    background:url(images/guest-roomh.gif) no-repeat left;
+}
+
+.navigation ul .localarea a:hover,.selected_local{
+    background:url(images/local-area.gif) no-repeat left;
+}
+
+.navigation ul .features a:hover,.selected_feature{
+    background:url(images/features-h.gif) no-repeat left;
+}
+.navigation ul .dining a:hover,.selected_dining{
+    color: #800040;
+    background:url(images/dining-hover.gif) no-repeat left;
+}
+
+.navigation ul .meetings a:hover,.selected_meeting{
+    background:url(images/meeting-h.gif) no-repeat left;
+}
+
+
+#mainBody
+{
+    background-color:aliceblue;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border:0px solid darkgray;
+    float:left;
+}
+#navLeft{
+    background-color:#DDD;
+    width: 33.5%;
+    height:auto;
+    margin-top: 2px;
+    float: left;
+    position: relative ;
+}
+#fareLeft{
+    background-color:#DDD;
+    width: 50%;
+    height:auto;
+    margin-top: 2px;
+    float: left;
+    position: relative ;
+}
+#fareLeft fieldset{
+    width: 90%;
+    background-color:#FFFFFF;
+}
+#fareLeft table{
+    width: 85%;
+    margin-bottom: 3%;
+}
+#q_selectlast
+{
+    margin-bottom: 5%;}
+#fare_right{
+    background-color:#f2f2f2;
+    width:47.5%;
+    height:auto;
+    padding: 9px;
+    float: left;
+    position: relative;
+
+
+}
+#fare_right fieldset{
+    width:80%;
+    height:auto;
+    background-color: #FFFFFF;
+    float: right;
+    position: relative;
+
+
+}
+
+/*#qselecT
+{
+    width: 100%;
+    text-align: center;
+    border: 0.6px double; 
+    padding:2px 5px;
+}*/
+.fare_input
+{
+    width: 100%;
+    text-align: center;
+    border: 0.6px double; 
+    padding:2px 5px;
+}
+table .fare_input
+{
+    width: 100%;
+    border: 2px double #CCCCCC; 
+    padding:2px 5px;
+}
+
+
+
+
+
+
+
+
+
+#payWindow{
+    background-color:#DDD;
+    width: 100%;
+    height:auto;
+    margin-top: 2px;
+    float: left;
+    position: relative ;
+}
+#payWindow fieldset{
+    width: 60%;
+    background-color:#FFFFFF;
+    margin-left: 20%
+}
+#payWindow table{
+    width: 80%;
+    margin-bottom: 3%;
+}
+
+
+
+
+
+
+table #selecDate
+{
+    width: 100%;
+    /*    border: 2px double #CCCCCC; */
+}
+#Search_div
+{
+    background-color:#8080c0;
+    color: #33F;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 22px;
+    width: 100%;
+}
+#search_content
+{
+    alignment-adjust: central;
+    padding: 20px;
+}
+#search_operator
+{
+    alignment-adjust: central;
+    padding: 20px;
+
+}
+#content{
+    background-color:#8080c0;
+    width: 65%;
+    color: white;
+    height:auto;
+    padding: 6px;
+    float: left;
+    position: relative;
+
+
+}
+#fare_right p{
+    margin: 4%;
+    padding-left: 4%;
+}
+#fare_r1{
+    color: #800040;
+    font-size: 16px;
+}
+
+/*--------footer----------*/
+.footer{
+    border-radius: 17px;
+    text-align:center;
+    width:80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    float:right;
+    /*position: fixed;*/
+    padding-bottom:3px;
+    background-color:#800040;
+    font-family: "Tahoma", Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color: #FFFFFF;
+    margin-top: 6px;
+}
+.footer-left{
+    width:35%;
+    float:left;
+}
+.footer-right{
+    width:65%;
+    float:right;
+    position:relative;
+}
